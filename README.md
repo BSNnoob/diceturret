@@ -37,20 +37,6 @@ Main Menu → Level Selection → Gameplay → End Screen → Level Selection
 
 The dice-based tower defense mechanics including random turret generation, wave management, and strategic placement are powered by a comprehensive scripting system that creates an engaging gameplay experience.
 
-| 📂 Module | 🎬 Scene | 📋 Responsibility |
-|-----------|----------|-------------------|
-| **MainMenu** | Main Menu | - Show main menu UI<br>- Navigate to level selection<br>- Display game title and credits<br>- Exit game functionality |
-| **Settings** | Main Menu<br>Gameplay | - Show settings menu (UI)<br>- Configure audio settings<br>- Adjust graphics quality<br>- Control volume and preferences |
-| **LevelSelection** | Level Selection | - Display available levels<br>- Show level completion status<br>- Track star ratings per level<br>- Load selected level |
-| **DiceSystem** | Gameplay | - Handle dice rolling mechanics<br>- Generate random turret outcomes<br>- Manage dice cooldowns<br>- Visual dice rolling animations |
-| **TurretManager** | Gameplay | - Spawn turrets based on dice results<br>- Handle turret placement validation<br>- Manage turret upgrades<br>- Process turret targeting and firing |
-| **EnemyManager** | Gameplay | - Spawn enemy waves<br>- Control enemy pathfinding<br>- Manage enemy health and damage<br>- Handle enemy death and rewards |
-| **WaveController** | Gameplay | - Manage wave progression<br>- Scale difficulty per wave<br>- Display wave information<br>- Trigger victory/defeat conditions |
-| **ResourceManager** | Gameplay | - Track player currency/resources<br>- Handle resource rewards<br>- Validate purchase costs<br>- Update resource UI |
-| **AudioManager** | Main Menu<br>Gameplay | - Play background music<br>- Trigger sound effects<br>- Manage audio volume<br>- Handle mute/unmute |
-| **UIManager** | Gameplay | - Display HUD elements<br>- Show health, resources, wave info<br>- Handle pause menu<br>- Update in-game UI |
-| **EndScreen** | End Screen | - Show victory/defeat screen<br>- Display performance stats<br>- Award star ratings<br>- Navigate to level selection or retry |
-| **SaveSystem** | Persistent | - Save level progress<br>- Store settings and preferences<br>- Track unlocked levels<br>- Maintain high scores |
 
 ## 📊 Game Flow Chart
 
