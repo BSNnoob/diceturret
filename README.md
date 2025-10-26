@@ -29,16 +29,7 @@ Unlock and utilize various turret classes including rapid-fire, splash damage, s
 
 ## 🎮 Scene Flow 
 
-flowchart LR
-  mm[Main Menu]
-  ls[Level Selection]
-  gp[Gameplay]
-  es[End Screen]
-  mm -- "Click Play" --> ls
-  ls -- "Select Level" --> gp
-  gp -- "Game Over" --> es
-  es -- "Return to Menu" --> ls
-  es -- "Main Menu" --> mm
+ ```mermaid flowchart LR mm[Main Menu] ls[Level Selection] gp[Gameplay] es[End Screen] mm -->|Click Play| ls ls -->|Select Level| gp gp -->|Game Over| es es -->|Return to Menu| ls es -->|Main Menu| mm ```
 
 ## 🛠️ Modules and Features
 
