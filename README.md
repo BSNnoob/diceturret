@@ -27,9 +27,20 @@ Face increasingly challenging enemy types with unique behaviors, resistances, an
 ### 🎯 Multiple Turret Types
 Unlock and utilize various turret classes including rapid-fire, splash damage, slow effects, and high-damage snipers based on your dice rolls.
 
-## 🎮 Scene Flow 
+## 🎮 Scene Flow
 
- ```mermaid flowchart LR mm[Main Menu] ls[Level Selection] gp[Gameplay] es[End Screen] mm -->|Click Play| ls ls -->|Select Level| gp gp -->|Game Over| es es -->|Return to Menu| ls es -->|Main Menu| mm ```
+```mermaid
+flowchart LR
+    mm[Main Menu]
+    ls[Level Selection]
+    gp[Gameplay]
+    es[End Screen]
+    mm -->|Click Play| ls
+    ls -->|Select Level| gp
+    gp -->|Game Over| es
+    es -->|Return to Menu| ls
+    es -->|Main Menu| mm
+```
 
 ## 🛠️ Modules and Features
 
