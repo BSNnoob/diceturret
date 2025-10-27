@@ -135,15 +135,6 @@ The dice-based tower defense mechanics including random turret generation, wave 
 - Updates ResourceManager
 - Refreshes UI display
 
-## 🎯 Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/dice-turret.git
-
-# Open the project in Unity
-# Unity Version: 2022.3 LTS or higher recommended
-```
 
 ## 🚀 How to Play
 
@@ -163,6 +154,3 @@ git clone https://github.com/yourusername/dice-turret.git
 
 ---
 
-<p align="center">
-  Made with ❤️ by the Dice Turret Team
-</p>
