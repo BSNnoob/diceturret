@@ -2,7 +2,7 @@
 
 > Roll the Dice, Defend Your Base!
 
-[![Made with GameMaker Studio 2]
+Made with Game Maker Studio 2
 
 ## 👥 Developer & Contributions
 
